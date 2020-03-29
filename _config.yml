@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 title: "G3AN: Disentangling Motion and Appearance for Video Generation"
+github:
+  repository_url: www.google.com
