@@ -1,4 +1,13 @@
 theme: jekyll-theme-cayman
 title: "G3AN: Disentangling Motion and Appearance for Video Generation"
+author:
+- name: Yaohui Wang
+  affiliation: Inria, Université Côte d'Azur
+- name: Piotr Bilinski
+  affiliation: University of Warsaw
+- name: Francois Bremond
+  affiliation: Inria, Université Côte d'Azur
+- name: Antitza Dantcheva
+  affiliation: Inria, Université Côte d'Azur
 github:
   repository_url: www.google.com
