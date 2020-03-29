@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: "G3AN: Disentangling Motion and Appearance for Video Generation"
-author: 'Yaohui Wang'
+author:
   - name: 'Yaohui Wang'
   - name: Piotr Bilinski
   - name: Francois Bremond
