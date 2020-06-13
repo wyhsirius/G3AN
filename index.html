@@ -7,7 +7,7 @@
     	<meta name="author" content="STARS team">
 
     	<title>G&sup3AN: Disentangling Appearance and Motion for Video Generation</title>
-
+		
     	<link href="css/bootstrap.min.css" rel="stylesheet">
     	<link href="css/style.css" rel="stylesheet">
     </head>
@@ -16,70 +16,58 @@
 
 <div class="container">
       <div class="header">
-        <h2> <center> G&sup3AN: Disentangling Appearance and Motion for Video Generation </center> </h2>
+        <h2><center>G&sup3AN: Disentangling Appearance and Motion for Video Generation</center> </h2>
+		<h4><center>In CVPR 2020</center></h4>
 		<h4> <center> <a href="http://www-sop.inria.fr/members/Yaohui.Wang" class="text-info"> Yaohui Wang&sup1&#39&sup2 </a> <a href="http://www.piotr-bilinski.com" class="text-info">&nbsp&nbsp&nbsp&nbsp Piotr Biliński&sup3</a> &nbsp&nbsp&nbsp&nbsp <a href="http://www-sop.inria.fr/members/Francois.Bremond/" class="text-info">François Brémond&sup1&#39&sup2</a> &nbsp&nbsp&nbsp&nbsp <a href="http://antitza.com" class="text-info">Antitza Dantcheva&sup1&#39&sup2</a> </center> </h4>
       	<h4> <center> &sup1 Inria &nbsp&nbsp&nbsp&nbsp &sup2 Université Côte d&#39Azur &nbsp&nbsp&nbsp&nbsp &sup3 University of Warsaw</center> </h4>
 	  </div>
 
       <center>
 	      <img src="g3animgs/g3an.png" title="" style="max-width:80%;vertical-align:top"/>
-		  <h3><a href="" class="text-info">[PDF]</a> <a href="" class="text-info">[Source Code]</a></h3>
-      </center>
+		  <h3><a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_G3AN_Disentangling_Appearance_and_Motion_for_Video_Generation_CVPR_2020_paper.pdf" class="text-info">[PDF]</a> <a href="https://github.com/wyhsirius/g3an-project" class="text-info">[Source Code]</a><a href='g3an.txt' class="text-info">[Bibtex]</a></h3>
+      	
+	  </center>
 	
       <div class="row">
-        <h3>Abstract</h3>
+        <h2>Abstract</h2>
+	  <center>
         <p style="text-align: justify;">
 Creating realistic human videos introduces the challenge of being able to simultaneously generate both appearance, as well as motion.
 To tackle this challenge, we introduce G&sup3AN, a novel spatio-temporal generative model, which seeks to capture the distribution of high dimensional video data and to model appearance and motion in disentangled manner.
 The latter is achieved by decomposing appearance and motion in a three-stream Generator, where the main stream aims to model spatio-temporal consistency, whereas the two auxiliary streams augment the main stream with multi-scale appearance and motion features, respectively.
 An extensive quantitative and qualitative analysis shows that our model systematically and significantly outperforms state-of-the-art methods on the facial expression datasets MUG and UvA-NEMO, as well as the Weizmann and UCF101 datasets on human action.
 Additional analysis on the learned latent representations confirms the successful decomposition of appearance and motion.</p>
+	 </center>
 	 </div>
 	
+		
 	<div class="row">
-    	<h3> Demos </h3>
+    <h2> Demos </h2>
 	<center>
-	<h4> Unconditional Generation &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Conditional Generation </h4>
-	<img src="demos/uncond.gif"  width='560' height='360' />
+    <img src="demos/uncond.gif"  width='560' height='360' />
 	<img src="demos/cond.gif"  width='560' height='360' />
-    	</center>
-	<center>
-	<h4> Multi-length Generation </h4>
+    <figcaption><h4> Unconditional & Conditional Generation</h4></figcaption>
+	
 	<img src="demos/multilength1.gif" width='560' height='360' />
 	<img src="demos/multilength2.gif" width='560' height='360' />
+		<figcaption><h4> Multi-length Generation </h4></figcaption>
 	</center>
 	</div>	
-	
-	<!--
-    <div class="row">
-    <h4>BibTeX</h4>
-			<pre><tt>@INPROCEEDINGS{,
-  title &nbsp&nbsp&nbsp&nbsp= {},
-  author &nbsp&nbsp = {},
-  booktitle = {CVPR},
-  year &nbsp&nbsp&nbsp&nbsp&nbsp= {2020}}
-	</tt></pre>
-    </div>
-    
-    <div class="row">
-    <h3> Video </h3>
-    <center>
-	    <video width="780" height="440" controls>
-  			<source src="videos/ObMan.webm" type='video/webm'>
-			  </video>
-			  </center>
-    </div>
 
-      <div class="row">
-        <h3>Acknowledgements</h3>
-        <p><p>
-	</p>
-
-       </p>
-      </div>
-
+     <div class="row">
+        <h2>Acknowledgements</h2>
+        <center>
+		<p style="text-align: justify;">This work is supported by the French Government (National Research Agency, ANR), under Grant ANR-17-CE39-0002.<p>
+		</center>
     </div> 
-	-->
+		
+     <div class="row">
+        <h2>Copyright Notice</h2>
+        <center>
+		<p style="text-align: justify;">The documents contained in these directories are included by the contributing authors as a means to ensure timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author’s copyright.<p>
+		</center>
+    </div> 	
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
